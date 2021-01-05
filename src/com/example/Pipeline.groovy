@@ -14,8 +14,7 @@ class Pipeline {
         steps {
             script.node() { 
 
-        }
-    }
+    
      
 //    ===================== Your Code Starts Here =====================
 //    Note : use "script" to access objects from jenkins pipeline run (WorkflowScript passed from Jenkinsfile)
