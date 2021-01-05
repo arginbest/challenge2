@@ -11,7 +11,7 @@ class Pipeline {
 
     def execute() {
         script.node() { 
-        script.stage("hello")
+        script.stage: echo "hello"
         }
 
     
