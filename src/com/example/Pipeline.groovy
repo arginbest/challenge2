@@ -9,7 +9,8 @@ class Pipeline {
         this.configurationFile = configurationFile
     }
 
-    def execute() {
+    def execute() 
+    // {
 //      stage('Read YAML file') {
 //         steps {
 //             script{ datas = readYaml (file: 'config.yml') }
@@ -28,4 +29,3 @@ class Pipeline {
 
 //    ===================== End pipeline ==============================
     }
-}
