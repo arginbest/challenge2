@@ -12,11 +12,11 @@ class Pipeline {
     def execute() {
         stage('Read YAML file') {
         steps {
-            script{ datas = readYaml (file: 'config.yml') }
-            echo datas.ear_file.deploy.toString()
+            script.node() { 
 
         }
     }
+     
 //    ===================== Your Code Starts Here =====================
 //    Note : use "script" to access objects from jenkins pipeline run (WorkflowScript passed from Jenkinsfile)
 //           for example: script.node(), script.stage() etc
