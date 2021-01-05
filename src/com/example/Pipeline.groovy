@@ -1,5 +1,5 @@
 package com.example
-
+def yamlData = readYaml file: 'cae.yaml'
 class Pipeline {
     def script
     def configurationFile
@@ -10,6 +10,7 @@ class Pipeline {
     }
 
     def execute() {
+        
 //    ===================== Your Code Starts Here =====================
 //    Note : use "script" to access objects from jenkins pipeline run (WorkflowScript passed from Jenkinsfile)
 //           for example: script.node(), script.stage() etc
