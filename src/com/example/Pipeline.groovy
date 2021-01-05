@@ -10,14 +10,14 @@ class Pipeline {
     }
 
     def execute() {
-     stage('Read YAML file') {
-        steps {
-            script{ datas = readYaml (file: 'config.yml') }
-            echo "hello"
+//      stage('Read YAML file') {
+//         steps {
+//             script{ datas = readYaml (file: 'config.yml') }
+//             echo "hello"
 
-        }
-    }
-}
+//         }
+//     }
+// }
 //    ===================== Your Code Starts Here =====================
 //    Note : use "script" to access objects from jenkins pipeline run (WorkflowScript passed from Jenkinsfile)
 //           for example: script.node(), script.stage() etc
@@ -28,4 +28,4 @@ class Pipeline {
 
 //    ===================== End pipeline ==============================
     }
-// }
+}
