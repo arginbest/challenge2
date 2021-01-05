@@ -10,9 +10,9 @@ class Pipeline {
     }
 
     def execute() {
-        stage('Read YAML file') {
-        steps {
-            script.node() { 
+        script.node() { 
+        stage("hello")
+        }
 
     
      
